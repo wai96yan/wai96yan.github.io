@@ -2772,7 +2772,7 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #695aa6;
+  background-color: rgb(26, 5, 48);
   border-color: #695aa6;
 }
 
@@ -12073,8 +12073,8 @@ pre .code {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: -webkit-linear-gradient(bottom, #fff 0%, rgba(105, 90, 166, 0.35) 99%, rgba(105, 90, 166, 0.1) 100%);
-  background-image: linear-gradient(to top, #fff 0%, rgba(105, 90, 166, 0.35) 99%, rgba(105, 90, 166, 0.1) 100%);
+  background-image: -webkit-linear-gradient(bottom, #fff 0%, rgba(00, 00, 00, 0.35) 99%, rgba(00, 00, 166, 0.1) 100%);
+  background-image: linear-gradient(to top, #fff 0%, rgba(00, 00, 00, 0.35) 99%, rgba(00, 00, 00, 0.1) 100%);
 }
 
 .header .header-content {
@@ -12089,7 +12089,7 @@ pre .code {
 .header .header-content .header-title .up {
   font-size: calc(30px + (60 - 30) * ((100vw - 300px) / (1300 - 300)));
   font-weight: 500;
-  color: #062c33;
+  color: #141414;
   margin-bottom: 5px;
   position: relative;
   display: block;
@@ -12121,7 +12121,7 @@ pre .code {
   font-size: 2.4rem;
   font-weight: bold;
   opacity: .8;
-  color: #212529;
+  color: #0c3840;
 }
 
 .header-mini {
@@ -12146,7 +12146,7 @@ pre .code {
           justify-content: center;
   text-align: center;
   padding: 1rem;
-  background: #a59cca;
+  background: #141414;
 }
 
 @media (max-width: 991.98px) {
