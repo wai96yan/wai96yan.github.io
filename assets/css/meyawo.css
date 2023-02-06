@@ -12079,8 +12079,8 @@ pre .code {
 
 .header .header-content {
   margin-top: 20px;
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
+  -webkit-box-flex: 1.5;
+  -webkit-flex-grow: 1.5;
       -ms-flex-positive: 1;
           flex-grow: 1;
   max-width: 550px;
