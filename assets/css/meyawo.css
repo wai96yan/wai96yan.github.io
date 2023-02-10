@@ -2772,13 +2772,13 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: rgb(26, 5, 48);
+  background-color: rgb(44, 47, 50);
   border-color: #695aa6;
 }
 
 .btn-primary:hover {
-  color: #fff;
-  background-color: #594c8d;
+  color: #d9dbdf;
+  background-color: #294f58;
   border-color: #544885;
 }
 
