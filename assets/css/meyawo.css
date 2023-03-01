@@ -62,12 +62,12 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 
 body {
-  margi
+  margin: 0;
   font-family: monospace;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #2a4f58;
+  color: #212529;
   text-align: left;
   background-color: #fff;
 }
@@ -12088,7 +12088,7 @@ pre .code {
 .header .header-content .header-title .up {
   font-size: calc(30px + (60 - 30) * ((100vw - 300px) / (1300 - 300)));
   font-weight: 500;
-  color: #063e4b;
+  color: #023c4b;
   margin-bottom: 5px;
   position: relative;
   display: block;
@@ -12243,7 +12243,7 @@ pre .code {
 }
 
 
-/* arrow bounce */
+
 
 @-moz-keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
@@ -12312,7 +12312,7 @@ pre .code {
   width: 24px;
   height: 24px;
   margin-left: -12px;
-  border-left: 1px solid #1e5567;
+  border-left: 1px solid #2a4f58;
   border-bottom: 1px solid #000000;
   -webkit-transform: rotateZ(-45deg);
   transform: rotateZ(-45deg);
