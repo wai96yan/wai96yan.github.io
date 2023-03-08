@@ -63,7 +63,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: monospace;
+  font-family: monospace:
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -150,7 +150,7 @@ sup {
   position: relative;
   font-size: 75%;
   line-height: 0;
-  vertical-align: baseline;
+  vetical-align: baseline;
 }
 
 sub {
@@ -162,13 +162,13 @@ sup {
 }
 
 a {
-  color: #695aa6;
+  color: #027965;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #493f75;
+  color: #014b46;
   text-decoration: none;
 }
 
@@ -2777,7 +2777,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary:hover {
-  color: #d9dbdf;
+  color: #000000;
   background-color: #294f58;
   border-color: #000000;
 }
@@ -3043,14 +3043,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #695aa6;
-  border-color: #695aa6;
+  color: #2a4f58;
+  border-color: #2a4f58;
 }
 
 .btn-outline-primary:hover {
-  color: #fff;
-  background-color: #695aa6;
-  border-color: #695aa6;
+  color: #ffffff;
+  background-color: #1d4d5d;
+  border-color: #1d4e5d;
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
