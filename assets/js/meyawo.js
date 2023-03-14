@@ -13,30 +13,45 @@
 */
 
 // smooth scroll
-$(document).ready(function(){
-    $(".navbar .nav-link").on('click', function(event) {
+$(document).ready(function() {
+  $(".navbar .nav-link").on('click', function(event) {
 
-        if (this.hash !== "") {
+    if (this.hash !== "") {
 
-            event.preventDefault();
+      event.preventDefault();
 
-            var hash = this.hash;
+      var hash = this.hash;
 
-            $('html, body').animate({
-                scrollTop: $(hash).offset().top
-            }, 700, function(){
-                window.location.hash = hash;
-            });
-        } 
-    });
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 700, function() {
+        window.location.hash = hash;
+      });
+    }
+  });
 });
+//preload
+const text = document.querySelectorAll('#text path');
+for (let i = 0; i < text.length; i++) {
+  console.log(`Letter ${i} is ${text[i].getTotalLength()}`);
+}
 
 // navbar toggle
-$('#nav-toggle').click(function(){
-    $(this).toggleClass('is-active')
-    $('ul.nav').toggleClass('show');
+$('#nav-toggle').click(function() {
+  $(this).toggleClass('is-active')
+  $('ul.nav').toggleClass('show');
 });
-$(window).scroll(function(){
-    $(".arrow").css("opacity", 1 - $(window).scrollTop() / 250); 
+//scroll_down_arrow
+$(window).scroll(function() {
+  $(".arrow").css("opacity", 1 - $(window).scrollTop() / 250);
   //250 is fade pixels
-  });
+});
+
+
+window.addEventListener("load", function() {
+  // Add the fade-out class to the preload div after a certain delay
+  setTimeout(function() {
+    document.getElementById("loader").classList.add("fade-out");
+  }, 3300); // Change the delay as needed
+});
+
