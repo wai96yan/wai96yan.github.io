@@ -46,7 +46,7 @@ $(window).scroll(function() {
   $(".arrow").css("opacity", 1 - $(window).scrollTop() / 250);
   //250 is fade pixels
 });
-
+const loader = document.getElementById("loader");
 
 window.addEventListener("load", function() {
   // Add the fade-out class to the preload div after a certain delay
@@ -55,3 +55,10 @@ window.addEventListener("load", function() {
   }, 3300); // Change the delay as needed
 });
 
+loader.addEventListener("transitionend", function(event) {
+  // Check if the event target is the preload div
+  if (event.target === loader) {
+    // Remove the preload div from the DOM
+    loader.remove();
+  }
+});
