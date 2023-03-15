@@ -62,3 +62,8 @@ loader.addEventListener("transitionend", function(event) {
     loader.remove();
   }
 });
+
+// Reload the page when the unload event is fired
+window.addEventListener("unload", function() {
+  location.reload();
+});
