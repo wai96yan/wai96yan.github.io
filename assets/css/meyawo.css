@@ -12336,7 +12336,7 @@ pre .code {
     align-items: center;
     z-index: 9999;
     opacity:1;
-    transition: opacity 1.5s ease-in-out;
+    transition: opacity 1.3s ease-in-out;
 }
 
 #loader.fade-out {
@@ -12348,7 +12348,7 @@ pre .code {
 }
 
 #text {
-    animation: fill 0.5s ease forwards 3.2s;
+    animation: fill 0.5s ease forwards 2.9s;
 }
 
 #text path:nth-child(1) {
