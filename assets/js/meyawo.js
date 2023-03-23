@@ -52,7 +52,7 @@ window.addEventListener("load", function() {
   // Add the fade-out class to the preload div after a certain delay
   setTimeout(function() {
     document.getElementById("loader").classList.add("fade-out");
-  }, 2700); // Change the delay as needed
+  }, 2300); // Change the delay as needed
 });
 
 loader.addEventListener("transitionend", function(event) {
