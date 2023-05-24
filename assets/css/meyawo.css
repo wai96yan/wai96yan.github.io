@@ -12361,49 +12361,49 @@ pre .code {
 #text path:nth-child(2) {
     stroke-dasharray: 550px;
     stroke-dashoffset: 550px;
-    animation: line-anim 1s ease forwards 0.3s;
+    animation: line-anim 1s ease forwards 0.8s;
 }
 /* l */
 #text path:nth-child(3) {
     stroke-dasharray: 361px;
     stroke-dashoffset: 361px;
-    animation: line-anim 1s ease forwards 0.2s;
+    animation: line-anim 1s ease forwards 0.8s;
 }
 /* l */
 #text path:nth-child(4) {
     stroke-dasharray: 361px;
     stroke-dashoffset: 361px;
-    animation: line-anim 1s ease forwards 0.2s;
+    animation: line-anim 1s ease forwards 0.8s;
 }
 /* o */
 #text path:nth-child(5) {
     stroke-dasharray: 544px;
     stroke-dashoffset: 544px;
-    animation: line-anim 1s ease forwards 0.1s;
+    animation: line-anim 1s ease forwards 0.2s;
 }
 /* w */
 #text path:nth-child(6) {
     stroke-dasharray: 798px;
     stroke-dashoffset: 798px;
-    animation: line-anim 1s ease forwards 0.1s;
+    animation: line-anim 1s ease forwards 0.3s;
 }
 /* o */
 #text path:nth-child(7) {
     stroke-dasharray: 544px;
     stroke-dashoffset: 544px;
-    animation: line-anim 1s ease forwards 0.2s;
+    animation: line-anim 1s ease forwards 0.8s;
 }
 /* r */
 #text path:nth-child(8) {
     stroke-dasharray: 571px;
     stroke-dashoffset: 571px;
-    animation: line-anim 1s ease forwards 0.2s;
+    animation: line-anim 1s ease forwards 0.8s;
 }
 /* l */
 #text path:nth-child(9) {
     stroke-dasharray: 361px;
     stroke-dashoffset: 361px;
-    animation: line-anim 1s ease forwards 0.2s;
+    animation: line-anim 1s ease forwards 0.8s;
 }
 /* d */
 #text path:nth-child(10) {
